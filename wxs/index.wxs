@@ -1,0 +1,11 @@
+var getList = function (result) {
+  //console.log(res);
+  var uuid = "v" + result.data.list[0] ;
+  console.log(uuid);
+  return uuid;
+}
+
+
+module.exports = {
+  getList: getList,
+}
