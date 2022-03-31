@@ -3,22 +3,29 @@
 
 <!--index.wxml-->
 <view style="padding: 10px">
-  <view>
-    <text>效果: [{{v61ea2271e4b00bbaf7cd2e1d.list[0].name }}]</text>
-  </view>
-  <!-- <view wx:for-item="item" wx:for="{{ v61ea2271e4b00bbaf7cd2e1d.list }}" wx:key="name">
+    <view>
+        <text>效果: [{{v61ea2271e4b00bbaf7cd2e1d.list[0].name }}]</text>
+    </view>
+    <!-- <view wx:for-item="item" wx:for="{{ v61ea2271e4b00bbaf7cd2e1d.list }}" wx:key="name">
     <text>{{item.name}}</text>
   </view> -->
-  <view>
-    <!-- {{_wxs.getList(result,res)}} -->
-    
-  </view>
-  <!-- 需求: 取`v${result.data.list[0]}.dataSourceList`的数据显示出来
+    <view>
+        <!-- {{_wxs.getList(result,res)}} -->
+
+    </view>
+    <!-- 需求: 取`v${result.data.list[0]}.dataSourceList`的数据显示出来
   <view wx:for-item="item" wx:for="{{_wxs.getFirst(result.data.list)}}" wx:key="name">
     <text>{{item.name}}</text>
   </view> -->
 
-<view wx:for-item="item" wx:for="{{_wxs.getList(result)}}" wx:key="name">
-    <text>{{item.name}}</text>
-  </view>
+    <view wx:for-item="item" wx:for="{{_wxs.getList(result)}}" wx:key="name">
+        <text>{{item.name}}</text>
+    </view>
+
+
+<view>
+版本5
+</view>
+
+
 </view>
