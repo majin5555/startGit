@@ -22,6 +22,6 @@
         <text>{{item.name}}</text>
     </view>
     <view>
-    版本5
+    版本20
     </view>
 </view>
