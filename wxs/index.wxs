@@ -3,6 +3,7 @@ var getList = function (result) {
   var uuid = "v" + result.data.list[0] ;
   console.log(uuid);
   return uuid;
+  11111
 }
 
 

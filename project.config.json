@@ -19,7 +19,7 @@
         "uploadWithSourceMap": true,
         "compileHotReLoad": false,
         "lazyloadPlaceholderEnable": false,
-        "useMultiFrameRuntime": false,
+        "useMultiFrameRuntime": true,
         "babelSetting": {
             "ignore": [],
             "disablePlugins": [],
@@ -44,11 +44,9 @@
         "tabIndent": "insertSpaces",
         "tabSize": 4
     },
-    "projectname": "",
-    "libVersion": "2.23.2",
+    "libVersion": "2.24.5",
     "packOptions": {
         "ignore": [],
         "include": []
-    },
-    "appid": "wx040334cee0775d25"
+    }
 }
